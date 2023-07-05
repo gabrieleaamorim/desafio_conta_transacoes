@@ -10,7 +10,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :fire: Desafio      | 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](<img width="533" alt="image" src="https://github.com/gabrieleaamorim/desafio_conta_transacoes/assets/86209383/fc4c7185-bd42-4f16-a119-c3c7e82627bd">
+(<img width="533" alt="image" src="https://github.com/gabrieleaamorim/desafio_conta_transacoes/assets/86209383/fc4c7185-bd42-4f16-a119-c3c7e82627bd">
 #vitrinedev)
 
 ## Detalhes do projeto
