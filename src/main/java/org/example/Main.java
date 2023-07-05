@@ -32,11 +32,11 @@ public class Main {
             System.out.println("Selecione uma das opções abaixo: ");
             System.out.println("-------------&&---------------");
             System.out.println("""
-                  1 - Consultar saldos
-                  2 - Receber valor
-                  3 - Transferir valor
-                  4 - Sair
-                    """);
+                    1 - Consultar saldos
+                    2 - Receber valor
+                    3 - Transferir valor
+                    4 - Sair
+                      """);
             opcao = scanner.nextInt();
 
             switch (opcao) {
@@ -55,15 +55,20 @@ public class Main {
                 case 3:
                     System.out.println("Digite o valor que deseja retirar da sua conta: ");
                     retiraValor = scanner.nextDouble();
+
+                    if (retiraValor > saldo) {
+                        System.out.println("Saldo insuficiente!");
+                    } else{
                     saldo -= retiraValor;
                     System.out.println(saldo);
-                    break;
+                    }break;
                 case 4:
                     System.out.println("Encerrando a aplicação, saindo da sua conta! ");
 
-                    }
-        }
+
             }
         }
+    }
+}
 
 
